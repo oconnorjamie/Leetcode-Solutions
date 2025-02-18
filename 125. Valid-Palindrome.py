@@ -2,7 +2,7 @@ class Solution(object):
     def isPalindrome(self, s):
         """
         :type s: str
-        :rtype: bool
+        :rtype: bool.
         """
         valid_chars = set("abcdefghijklmnopqrstuvwxyz0123456789")
         s2=s.lower()
